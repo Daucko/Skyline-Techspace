@@ -1,0 +1,109 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 0 30%;
+}
+
+.container {
+    border: 2px solid red;
+    background-color: aliceblue;
+    height: 100vh;
+    padding-bottom: 70px;
+}
+
+.first-row {
+    text-align: center;
+}
+
+.first-row p {
+    font-size: 90%;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 35px;
+    width: 100%;
+}
+
+.btn-row .btn {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    border-radius: 30px;
+    width: 100px;
+}
+
+.btn p {
+    font-size: 15px;
+    color: white;
+}
+
+.btn p:nth-child(2) {
+    padding-bottom: 5px;
+}
+
+.first {
+    background-color: blue;
+}
+
+.second {
+    background-color: skyblue;
+}
+
+.third {
+    background-color: rgb(230, 75, 18);
+}
+
+
+.line {
+    margin: 10%;
+    position: relative;
+}
+
+.white-bg {
+    background-color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    position: absolute;
+    top: -900%;
+    left: 46%;
+}
+
+.line .white-bg p {
+    margin: auto;
+}
+
+input {
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.btn-4 {
+    height: 30px;
+    width: 84% ;
+    padding: 16px 0 36px;
+    text-align: center;
+    background-color: rgb(17, 143, 17);
+    border: transparent;
+    color: white;
+}
+
+form svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
